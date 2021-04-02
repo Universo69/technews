@@ -326,6 +326,11 @@ hr {
         height: 100%;
         padding: 30px;
         opacity: .9;
+        transform: translateX(-270px);
+        transition: transform .8s ease-in-out;
+    }
+
+    .nav-main ul.nav-menu.show {
         transform: translateX(-20px);
     }
 
